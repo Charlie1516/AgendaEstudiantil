@@ -1,0 +1,82 @@
+body {
+    background-color: #001f3f;
+    /* Azul oscuro */
+}
+
+.text-bg-dark {
+    background-color: #001f3f !important;
+    /* Azul oscuro */
+}
+
+.btn-yellow {
+    background-color: yellow;
+    /* Botón amarillo */
+    color: black;
+    /* Texto negro en el botón */
+    border: none;
+    /* Sin borde */
+}
+
+.btn-yellow:hover {
+    background-color: #fcd300;
+    /* Un tono más claro de amarillo para hover */
+}
+
+.bg-white {
+    background-color: white !important;
+    /* Fondo blanco para el formulario */
+}
+
+.text-white {
+    color: white !important;
+    /* Letras blancas para el texto */
+}
+
+
+:root{
+    --fc-event-bg-color: #0529f3;
+}
+
+.fc {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    --fc-today-bg-color: #c5c5c5;
+}
+
+.fc-toolbar {
+    flex-wrap: wrap;
+}
+
+.fc .fc-col-header-cell-cushion {
+    text-decoration: none;
+    color: #001f3f;
+}
+
+.fc .fc-daygrid-day-number {
+    text-decoration: none;
+    color: #001f3f;
+}
+
+.fc .fc-view-harness {
+    height: 100% !important;
+}
+
+.fc .fc-view-harness-active > .fc-view {
+    position: relative;
+    inset: inherit;
+}
+
+.fc .fc-daygrid-event {
+    cursor: pointer;
+}
+
+.fc-event {
+    background-color: #0529f3;
+    color: #fff;
+}
+
+.fc-event:hover {
+    background-color: rgba(10, 87, 202, 0.911);
+    color: #fff;
+}
